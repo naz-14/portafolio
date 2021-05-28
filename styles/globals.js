@@ -36,6 +36,7 @@ const Button = styled.button`
   border: none;
   border-radius: 15px;
   cursor: pointer;
+  width: max-content;
   @media (min-width: 768px) {
     font-size: 1.8rem;
   }
@@ -49,5 +50,29 @@ export const PrimaryButton = styled(Button)`
     color: #393e46;
   }
 `
-
+export const Section = styled.section`
+  margin-top: 4rem;
+  @media (min-width: 768px) {
+    margin-top: 10rem;
+  }
+`
+export const SectionTitle = styled.h2`
+  font-size: 2rem;
+  color: #32e0c4;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  @media (min-width: 768px) {
+    font-size: 3rem;
+  }
+`
+export const NormalText = styled.p`
+  font-size: 1.5rem;
+  color: #eeeeee;
+  line-height: 20px;
+  margin-bottom: 1rem;
+  @media (min-width: 768px) {
+    font-size: 2rem;
+    line-height: 30px;
+  }
+`
 export default GlobalStyle

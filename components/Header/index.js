@@ -12,6 +12,7 @@ const Header = styled.header`
   left: 0;
   right: 0;
   z-index: 10;
+  background-color: #222831;
 `
 const HeaderWrapper = styled(Container)`
   display: flex;

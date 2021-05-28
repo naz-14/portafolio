@@ -10,9 +10,11 @@ const HeroSection = styled.section`
   align-items: center;
 `
 const HeroWrapper = styled(Container)`
+  width: max-content;
   transform: translateY(-5rem);
 `
 const Uriel = styled.p`
+  width: max-content;
   font-size: 5rem;
   color: #eeeeee;
   @media (min-width: 768px) {
@@ -20,6 +22,7 @@ const Uriel = styled.p`
   }
 `
 const Frase = styled.p`
+  width: max-content;
   font-size: 2rem;
   font-weight: 300;
   color: #eeeeee;

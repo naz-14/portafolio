@@ -41,6 +41,7 @@ const Logo = styled.p`
   color: #eeeeee;
   font-weight: 700;
   font-size: 1.4rem;
+  cursor: pointer;
   @media (min-width: 768px) {
     font-size: 1.7rem;
   }
@@ -104,9 +105,11 @@ const HeaderBar = () => {
   return (
     <Header>
         <HeaderWrapper>
-          <Logo>
-            Uriel Alvarez V.
-          </Logo>
+          <Link href="/">
+            <Logo>
+              Uriel Alvarez V.
+            </Logo>
+          </Link>
           <NavBar showMenu={showMenu}>
             <NavUl>
               <CloseMenu onClick={() => {
@@ -114,13 +117,13 @@ const HeaderBar = () => {
               }}>
                 <CloseMenuIcon />
               </CloseMenu>
-              <Link prefetch href="#acerca" passHref>
+              <Link prefetch href="/#acerca" passHref>
                 <NavLink>Acerca de mi</NavLink>
               </Link>
-              <Link prefetch href="#portafolio" passHref>
+              <Link prefetch href="/#portafolio" passHref>
                 <NavLink>Portafolio</NavLink>
               </Link>
-              <Link prefetch href="#contacto" passHref>
+              <Link prefetch href="/#contacto" passHref>
                 <NavLink>Contacto</NavLink>
               </Link>
             </NavUl>

@@ -63,9 +63,11 @@ const Hero = () => {
         <Frase>
           {'"El conocimiento se comparte"'}
         </Frase>
-        <PrimaryButton>
-          Portafolio
-        </PrimaryButton>
+        <Link href='#portafolio'>
+          <PrimaryButton>
+            Portafolio
+          </PrimaryButton>
+        </Link>
       </HeroWrapper>
       <Link href='#acerca'>
         <Arrow />

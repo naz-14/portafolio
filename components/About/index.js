@@ -21,7 +21,7 @@ const Tecnologia = styled.li`
 `
 const About = () => {
   return (
-    <Section>
+    <Section id="acerca">
       <AboutWrapper>
         <SectionTitle>
           Acerca de mi
